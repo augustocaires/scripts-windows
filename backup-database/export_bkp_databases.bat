@@ -1,0 +1,1 @@
+sqlcmd -s SRV-SQL\MSSQLSERVER -i C:\Users\Administrador\Desktop\Database_BackupTools\backup_databases.sql -o C:\ExitBackup.txt
