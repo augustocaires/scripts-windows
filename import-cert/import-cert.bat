@@ -1,0 +1,1 @@
+certutil -f -user -p "SENHA@123" -importpfx "\\servidor\SYSVOL\domain.local\scripts\certificados\CERTIFICADO.pfx"
