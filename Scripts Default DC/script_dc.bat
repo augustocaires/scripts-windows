@@ -8,10 +8,10 @@ REM cls
 REM echo ******************************************************************
 REM echo Aguardando conexão com o Controlador de Domínio (Testando 192.100.10.2)
 REM echo ******************************************************************
-REM ping -n 1 192.100.10.2 | find "TTL=" >nul
+REM ping -n 1 192.100.10.2 | findstr "TTL=" > null
 REM 
 REM IF ERRORLEVEL 1 (
-REM     timeout /t 5 >nul
+REM     timeout /t 5 > null
 REM     GOTO CHECKPING
 REM )
 REM 
