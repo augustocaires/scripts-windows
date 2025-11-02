@@ -57,7 +57,7 @@ IF NOT EXIST "C:\dc_util\soft_default.zip" copy "\\domain.local\NETLOGON\program
 
 IF NOT EXIST "C:\dc_util\Wallpaper\wallpaper_login.ps1" copy "\\domain.local\NETLOGON\Wallpaper\wallpaper_login.ps1" "C:\dc_util\Wallpaper\"
 
-Powershell.exe -executionpolicy remotesigned -File "C:\d_util\Wallpaper\wallpaper_login.ps1"
+Powershell.exe -executionpolicy remotesigned -File "C:\dc_util\Wallpaper\wallpaper_login.ps1"
 
 REM DISABLE IPV6
 netsh interface teredo set state disabled
