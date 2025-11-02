@@ -1,4 +1,4 @@
-$Path = "C:\d_util"
+$Path = "C:\dc_util"
 Get-ChildItem "$Path" -Recurse | Unblock-File
 
 $imagePath = 'C:\dc_util\Wallpaper\new_wallpaper.jpg'
